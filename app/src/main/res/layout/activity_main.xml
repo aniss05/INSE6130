@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:padding="40dp">
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:text="Please enter the phone number of your victim"
+        android:textColor="@color/darkorange"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:text="Phone Number"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/darkgreen"
+        android:layout_height="wrap_content"
+
+        />
+
+    <EditText
+
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+
+        android:id="@+id/etStart"
+        android:text="Start"
+        android:background="@color/darkblue"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+</LinearLayout>
+
